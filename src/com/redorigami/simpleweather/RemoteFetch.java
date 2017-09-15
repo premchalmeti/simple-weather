@@ -18,8 +18,7 @@ public class RemoteFetch
             HttpURLConnection connection = 
                     (HttpURLConnection)url.openConnection();
              
-            connection.addRequestProperty("x-api-key", 
-                    context.getString(R.string.open_weather_maps_app_id));
+            connection.addRequestProperty("x-api-key",context.getString(R.string.open_weather_maps_app_id));
              
             BufferedReader reader = new BufferedReader(
                     new InputStreamReader(connection.getInputStream()));

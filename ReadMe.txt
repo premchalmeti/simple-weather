@@ -2,7 +2,7 @@
 =================================
 
 1. Android studio.
-2. wunderground API.
+2. openWeatherMap API.
 
 *****Steps for deployment:
 =========================
